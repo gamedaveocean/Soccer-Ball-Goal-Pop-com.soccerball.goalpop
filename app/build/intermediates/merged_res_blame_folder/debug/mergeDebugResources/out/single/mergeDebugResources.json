@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_red.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_red.png"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_green.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_green.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_orange.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_orange.png"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_blue.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_spritesheet.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_spritesheet.png"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_red.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_red.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_yellow.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_game_stadium_bg.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\game_stadium_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_yellow.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_green.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_green.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_classic.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_classic.png"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_orange.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_orange.png"
+    },
+    {
+        "merged": "com.soccerball.goalpop.app-debug-58:/drawable-nodpi_ball_classic.png.flat",
+        "source": "com.soccerball.goalpop.app-main-60:/drawable-nodpi/ball_classic.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable-nodpi_ball_blue.png.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable-nodpi\\ball_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-debug-58:\\drawable_ic_video_reward.xml.flat",
+        "source": "C:\\Users\\gordo\\.gradle\\daemon\\8.9\\com.soccerball.goalpop.app-main-60:\\drawable\\ic_video_reward.xml"
+    }
+]

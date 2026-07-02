@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="conditional_incidents">
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_launcher_foreground.xml"
+            line="16"
+            column="28"
+            startOffset="651"
+            endLine="16"
+            endColumn="54"
+            endOffset="677"/>
+        <map>
+            <entry
+                name="containsFillType"
+                boolean="false"/>
+            <entry
+                name="containsGradient"
+                boolean="false"/>
+            <entry
+                name="folderVersion"
+                int="-1"/>
+            <entry
+                name="message"
+                string="Resource references will not work correctly in images generated for this vector icon for API &lt; %1$d; check generated icon to make sure it looks acceptable"/>
+        </map>
+    </incident>
+
+    <incident
+        id="LockedOrientationActivity"
+        severity="warning"
+        message="Expecting `android:screenOrientation=&quot;unspecified&quot;` or `&quot;fullSensor&quot;` for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices">
+        <fix-attribute
+            description="Set screenOrientation=&quot;fullSensor&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="screenOrientation"
+            value="fullSensor"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="19"
+            column="13"
+            startOffset="782"
+            endLine="19"
+            endColumn="49"
+            endOffset="818"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+</incidents>

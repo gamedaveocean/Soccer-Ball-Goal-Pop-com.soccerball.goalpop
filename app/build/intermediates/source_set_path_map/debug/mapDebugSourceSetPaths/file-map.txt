@@ -1,0 +1,61 @@
+com.soccerball.goalpop.app-runtime-saveable-release-0 C:\Users\gordo\.gradle\caches\8.9\transforms\0c6603f8e41a1ee91bcc4d36e2442100\transformed\runtime-saveable-release\res
+com.soccerball.goalpop.app-lifecycle-process-2.8.7-1 C:\Users\gordo\.gradle\caches\8.9\transforms\0c998eaf43557b50a32186c47f443657\transformed\lifecycle-process-2.8.7\res
+com.soccerball.goalpop.app-emoji2-1.3.0-2 C:\Users\gordo\.gradle\caches\8.9\transforms\0fc18a08735dc3c82e12d8510acde56b\transformed\emoji2-1.3.0\res
+com.soccerball.goalpop.app-lifecycle-viewmodel-ktx-2.8.7-3 C:\Users\gordo\.gradle\caches\8.9\transforms\180a7f9935f7adc02f2a846030c07188\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.soccerball.goalpop.app-ui-text-release-4 C:\Users\gordo\.gradle\caches\8.9\transforms\1ae3eb9f9bd7c9241b811b7c5b128655\transformed\ui-text-release\res
+com.soccerball.goalpop.app-ui-release-5 C:\Users\gordo\.gradle\caches\8.9\transforms\1b7f9013fea5f1c7630099e0f77c38f2\transformed\ui-release\res
+com.soccerball.goalpop.app-lifecycle-livedata-core-2.8.7-6 C:\Users\gordo\.gradle\caches\8.9\transforms\20dee26e68a80ebdae2479404bdf598b\transformed\lifecycle-livedata-core-2.8.7\res
+com.soccerball.goalpop.app-inapp-sdk-5.3.1-7 C:\Users\gordo\.gradle\caches\8.9\transforms\25936935bc67b264c66aa2005bcb8eff\transformed\inapp-sdk-5.3.1\res
+com.soccerball.goalpop.app-lifecycle-runtime-ktx-release-8 C:\Users\gordo\.gradle\caches\8.9\transforms\317e2d1ea0b31d5e8ca0941a8d5993e5\transformed\lifecycle-runtime-ktx-release\res
+com.soccerball.goalpop.app-play-services-basement-18.4.0-9 C:\Users\gordo\.gradle\caches\8.9\transforms\31bf0eaa7ea4ce370c37d9ab7b2dc46d\transformed\play-services-basement-18.4.0\res
+com.soccerball.goalpop.app-tracing-1.2.0-10 C:\Users\gordo\.gradle\caches\8.9\transforms\3229fcfcc32048823a77070c92fd3d2b\transformed\tracing-1.2.0\res
+com.soccerball.goalpop.app-animation-release-11 C:\Users\gordo\.gradle\caches\8.9\transforms\376be7fccd849d45b94a983819b89297\transformed\animation-release\res
+com.soccerball.goalpop.app-ui-tooling-preview-release-12 C:\Users\gordo\.gradle\caches\8.9\transforms\3803cd1b87e6440fde0dfe7513ca2da4\transformed\ui-tooling-preview-release\res
+com.soccerball.goalpop.app-navigation-compose-2.8.5-13 C:\Users\gordo\.gradle\caches\8.9\transforms\41118ea452b7f901920f9877b325da9d\transformed\navigation-compose-2.8.5\res
+com.soccerball.goalpop.app-datastore-release-14 C:\Users\gordo\.gradle\caches\8.9\transforms\41373ffb23a26d244a039f337ff91bb2\transformed\datastore-release\res
+com.soccerball.goalpop.app-material-icons-core-release-15 C:\Users\gordo\.gradle\caches\8.9\transforms\4d17c74c82fbd4c685e252f78e79a84a\transformed\material-icons-core-release\res
+com.soccerball.goalpop.app-annotation-experimental-1.4.1-16 C:\Users\gordo\.gradle\caches\8.9\transforms\4dabf6e3cca4f4717c1e2e0db70a1c35\transformed\annotation-experimental-1.4.1\res
+com.soccerball.goalpop.app-ui-graphics-release-17 C:\Users\gordo\.gradle\caches\8.9\transforms\4eb24dbb46d2eb5ea1b807a03cf2aeae\transformed\ui-graphics-release\res
+com.soccerball.goalpop.app-core-runtime-2.2.0-18 C:\Users\gordo\.gradle\caches\8.9\transforms\5370a318a200054a02843882125e5fb2\transformed\core-runtime-2.2.0\res
+com.soccerball.goalpop.app-activity-compose-1.9.3-19 C:\Users\gordo\.gradle\caches\8.9\transforms\559762b92362ff41793e064d0b1cf753\transformed\activity-compose-1.9.3\res
+com.soccerball.goalpop.app-ui-geometry-release-20 C:\Users\gordo\.gradle\caches\8.9\transforms\58457c3a4e06052d8623b4c52ff78a8b\transformed\ui-geometry-release\res
+com.soccerball.goalpop.app-animation-core-release-21 C:\Users\gordo\.gradle\caches\8.9\transforms\75ce12dadfcffb581a7286fed2b485e4\transformed\animation-core-release\res
+com.soccerball.goalpop.app-navigation-common-2.8.5-22 C:\Users\gordo\.gradle\caches\8.9\transforms\7773580f945bc0e0d48c6f425a6a27be\transformed\navigation-common-2.8.5\res
+com.soccerball.goalpop.app-savedstate-ktx-1.2.1-23 C:\Users\gordo\.gradle\caches\8.9\transforms\7d2e771a2230d874d537daec6f7be4a7\transformed\savedstate-ktx-1.2.1\res
+com.soccerball.goalpop.app-savedstate-1.2.1-24 C:\Users\gordo\.gradle\caches\8.9\transforms\81631d5e08272a03aa0d7788020e4131\transformed\savedstate-1.2.1\res
+com.soccerball.goalpop.app-lifecycle-viewmodel-compose-release-25 C:\Users\gordo\.gradle\caches\8.9\transforms\860c711bfdd5a33f15a1f3d31bd53af9\transformed\lifecycle-viewmodel-compose-release\res
+com.soccerball.goalpop.app-navigation-common-ktx-2.8.5-26 C:\Users\gordo\.gradle\caches\8.9\transforms\888d51af162f0826dcbe562757e9874d\transformed\navigation-common-ktx-2.8.5\res
+com.soccerball.goalpop.app-material3-release-27 C:\Users\gordo\.gradle\caches\8.9\transforms\8b8ffd7d53060eb5004364a8135e624a\transformed\material3-release\res
+com.soccerball.goalpop.app-graphics-path-1.0.1-28 C:\Users\gordo\.gradle\caches\8.9\transforms\91f8ed962cecc062ee98b08e68021599\transformed\graphics-path-1.0.1\res
+com.soccerball.goalpop.app-foundation-layout-release-29 C:\Users\gordo\.gradle\caches\8.9\transforms\9287a9e7306838fd9201f51877525196\transformed\foundation-layout-release\res
+com.soccerball.goalpop.app-ui-unit-release-30 C:\Users\gordo\.gradle\caches\8.9\transforms\9cfa07f38635226cc5f998eb7b372c3f\transformed\ui-unit-release\res
+com.soccerball.goalpop.app-lifecycle-runtime-compose-release-31 C:\Users\gordo\.gradle\caches\8.9\transforms\9f337969effa45bd55486e85d6b7008e\transformed\lifecycle-runtime-compose-release\res
+com.soccerball.goalpop.app-activity-1.9.3-32 C:\Users\gordo\.gradle\caches\8.9\transforms\a1a2ff1ed6eeb2cb2aee4c34f32f9843\transformed\activity-1.9.3\res
+com.soccerball.goalpop.app-datastore-core-release-33 C:\Users\gordo\.gradle\caches\8.9\transforms\a46b19586e2fef4bf6430864d32bfe43\transformed\datastore-core-release\res
+com.soccerball.goalpop.app-lifecycle-livedata-2.8.7-34 C:\Users\gordo\.gradle\caches\8.9\transforms\a4f2f2b8763a48b6f671d4c6a698bdd3\transformed\lifecycle-livedata-2.8.7\res
+com.soccerball.goalpop.app-customview-poolingcontainer-1.0.0-35 C:\Users\gordo\.gradle\caches\8.9\transforms\b00cf072ed2408b993da4a9d3bb46203\transformed\customview-poolingcontainer-1.0.0\res
+com.soccerball.goalpop.app-profileinstaller-1.3.1-36 C:\Users\gordo\.gradle\caches\8.9\transforms\b584308352223ece343285dcfe691601\transformed\profileinstaller-1.3.1\res
+com.soccerball.goalpop.app-webkit-1.15.0-37 C:\Users\gordo\.gradle\caches\8.9\transforms\b73f39d889420ef2863e56ec5add2e65\transformed\webkit-1.15.0\res
+com.soccerball.goalpop.app-play-services-base-18.5.0-38 C:\Users\gordo\.gradle\caches\8.9\transforms\bbe1ddc7436ec647320a87c1ae160aeb\transformed\play-services-base-18.5.0\res
+com.soccerball.goalpop.app-core-ktx-1.15.0-39 C:\Users\gordo\.gradle\caches\8.9\transforms\c388f55afaf4815dcaffbfe776416396\transformed\core-ktx-1.15.0\res
+com.soccerball.goalpop.app-lifecycle-runtime-release-40 C:\Users\gordo\.gradle\caches\8.9\transforms\c5f8893225f387190dcb280a38c0b6ae\transformed\lifecycle-runtime-release\res
+com.soccerball.goalpop.app-navigation-runtime-ktx-2.8.5-41 C:\Users\gordo\.gradle\caches\8.9\transforms\cba070b0f3b3f2af8017ffc252c4e985\transformed\navigation-runtime-ktx-2.8.5\res
+com.soccerball.goalpop.app-foundation-release-42 C:\Users\gordo\.gradle\caches\8.9\transforms\cc98893fd78a9aa8c317b4af65514fe2\transformed\foundation-release\res
+com.soccerball.goalpop.app-datastore-preferences-release-43 C:\Users\gordo\.gradle\caches\8.9\transforms\d39df5399d0af932b5dadba247e725c7\transformed\datastore-preferences-release\res
+com.soccerball.goalpop.app-lifecycle-livedata-core-ktx-2.8.7-44 C:\Users\gordo\.gradle\caches\8.9\transforms\d4794a7f9f6673ee35c66a89e70fdacf\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.soccerball.goalpop.app-material-ripple-release-45 C:\Users\gordo\.gradle\caches\8.9\transforms\d4a8dcea295e2e9a01ff2c2cdde2f630\transformed\material-ripple-release\res
+com.soccerball.goalpop.app-lifecycle-viewmodel-release-46 C:\Users\gordo\.gradle\caches\8.9\transforms\d72ce8dcf326e1f1c3155eb549a95887\transformed\lifecycle-viewmodel-release\res
+com.soccerball.goalpop.app-ui-util-release-47 C:\Users\gordo\.gradle\caches\8.9\transforms\de41e04f78b46120d8acdcecb8d7d40e\transformed\ui-util-release\res
+com.soccerball.goalpop.app-lifecycle-viewmodel-savedstate-2.8.7-48 C:\Users\gordo\.gradle\caches\8.9\transforms\eb2c0a0efc438f58cc41fbfeb20aac68\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.soccerball.goalpop.app-activity-ktx-1.9.3-49 C:\Users\gordo\.gradle\caches\8.9\transforms\ee83eeb0da8bf1285b927842cb29ac35\transformed\activity-ktx-1.9.3\res
+com.soccerball.goalpop.app-runtime-release-50 C:\Users\gordo\.gradle\caches\8.9\transforms\f179c4266e7670b7ed984032720368bb\transformed\runtime-release\res
+com.soccerball.goalpop.app-startup-runtime-1.1.1-51 C:\Users\gordo\.gradle\caches\8.9\transforms\f3b258e7ef4209dccb891a7f469f97ee\transformed\startup-runtime-1.1.1\res
+com.soccerball.goalpop.app-core-1.15.0-52 C:\Users\gordo\.gradle\caches\8.9\transforms\f89fb9d7757a4177cc63c59023aff25b\transformed\core-1.15.0\res
+com.soccerball.goalpop.app-navigation-runtime-2.8.5-53 C:\Users\gordo\.gradle\caches\8.9\transforms\ffb816d832e5c8e278f852062d863e57\transformed\navigation-runtime-2.8.5\res
+com.soccerball.goalpop.app-pngs-54 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\build\generated\res\pngs\debug
+com.soccerball.goalpop.app-resValues-55 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\build\generated\res\resValues\debug
+com.soccerball.goalpop.app-packageDebugResources-56 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.soccerball.goalpop.app-packageDebugResources-57 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.soccerball.goalpop.app-debug-58 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.soccerball.goalpop.app-debug-59 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\src\debug\res
+com.soccerball.goalpop.app-main-60 C:\Users\gordo\Projects\Soccer Ball Goal Pop\app\src\main\res

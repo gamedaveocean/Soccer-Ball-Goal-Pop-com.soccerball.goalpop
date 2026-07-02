@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="field_dark_green">#FF1B5E20</color>
+    <color name="field_green">#FF2E7D32</color>
+    <color name="field_light_green">#FF43A047</color>
+    <color name="goal_white">#FFFFFFFF</color>
+    <color name="ui_gold">#FFFFC107</color>
+    <color name="ui_dark">#FF1A237E</color>
+    <color name="ball_red">#FFE53935</color>
+    <color name="ball_blue">#FF1E88E5</color>
+    <color name="ball_yellow">#FFFDD835</color>
+    <color name="ball_green">#FF43A047</color>
+    <color name="ball_purple">#FF8E24AA</color>
+    <color name="ball_orange">#FFFB8C00</color>
+    <color name="icon_neon_green">#FF76FF03</color>
+    <color name="icon_stadium_dark">#FF061525</color>
+</resources>

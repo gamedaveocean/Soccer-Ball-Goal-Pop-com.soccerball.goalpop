@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Neon glow rings -->
+    <path
+        android:fillColor="#3376FF03"
+        android:pathData="M54,54m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+    <path
+        android:fillColor="#5576FF03"
+        android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
+
+    <!-- Green energy arc (reference style) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M24,58 A30,30 0 1,1 84,58"
+        android:strokeColor="#FF76FF03"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M26,58 A28,28 0 1,1 82,58"
+        android:strokeColor="#FFB8FF5C"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Ball shadow -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M54,56m-23,0a23,23 0,1 1,46 0a23,23 0,1 1,-46 0" />
+
+    <!-- Soccer ball base -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,32c-12.15,0 -22,9.85 -22,22s9.85,22 22,22 22,-9.85 22,-22 -9.85,-22 -22,-22z" />
+    <path
+        android:fillColor="#FFE0E0E0"
+        android:pathData="M54,32c-12.15,0 -22,9.85 -22,22 0,0 14,-6 22,-6s22,6 22,6c0,-12.15 -9.85,-22 -22,-22z" />
+
+    <!-- Classic pentagon -->
+    <path
+        android:fillColor="#FF212121"
+        android:pathData="M54,38 L60.5,48.5 L73,50 L64,58.5 L66.5,71 L54,65 L41.5,71 L44,58.5 L35,50 L47.5,48.5 Z" />
+
+    <!-- Hex panel lines -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,38 L54,65 M35,50 L73,50 M41.5,41 L66.5,63 M66.5,41 L41.5,63"
+        android:strokeColor="#FF424242"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+
+    <!-- Ball outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,32c-12.15,0 -22,9.85 -22,22s9.85,22 22,22 22,-9.85 22,-22 -9.85,-22 -22,-22z"
+        android:strokeColor="#FF212121"
+        android:strokeWidth="1.5" />
+
+    <!-- Highlight -->
+    <path
+        android:fillColor="#66FFFFFF"
+        android:pathData="M44,40c0,0 4,-6 10,-8 0,0 -8,4 -10,8z" />
+</vector>

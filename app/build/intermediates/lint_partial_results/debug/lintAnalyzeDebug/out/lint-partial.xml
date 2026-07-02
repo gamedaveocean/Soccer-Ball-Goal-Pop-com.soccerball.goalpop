@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.soccerball.goalpop.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.ball_blue"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="10"
+            column="12"
+            startOffset="406"
+            endLine="10"
+            endColumn="28"
+            endOffset="422"/>
+        <location id="R.color.ball_green"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="12"
+            column="12"
+            startOffset="502"
+            endLine="12"
+            endColumn="29"
+            endOffset="519"/>
+        <location id="R.color.ball_orange"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="14"
+            column="12"
+            startOffset="599"
+            endLine="14"
+            endColumn="30"
+            endOffset="617"/>
+        <location id="R.color.ball_purple"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="13"
+            column="12"
+            startOffset="550"
+            endLine="13"
+            endColumn="30"
+            endOffset="568"/>
+        <location id="R.color.ball_red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="9"
+            column="12"
+            startOffset="360"
+            endLine="9"
+            endColumn="27"
+            endOffset="375"/>
+        <location id="R.color.ball_yellow"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="11"
+            column="12"
+            startOffset="453"
+            endLine="11"
+            endColumn="30"
+            endOffset="471"/>
+        <location id="R.color.field_light_green"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="167"
+            endLine="5"
+            endColumn="36"
+            endOffset="191"/>
+        <location id="R.color.goal_white"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="6"
+            column="12"
+            startOffset="222"
+            endLine="6"
+            endColumn="29"
+            endOffset="239"/>
+        <location id="R.color.ui_dark"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="8"
+            column="12"
+            startOffset="315"
+            endLine="8"
+            endColumn="26"
+            endOffset="329"/>
+        <location id="R.color.ui_gold"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="7"
+            column="12"
+            startOffset="270"
+            endLine="7"
+            endColumn="26"
+            endOffset="284"/>
+        <entry
+            name="model"
+            string="color[field_green(U),field_dark_green(U),field_light_green(D),goal_white(D),ui_gold(D),ui_dark(D),ball_red(D),ball_blue(D),ball_yellow(D),ball_green(D),ball_purple(D),ball_orange(D)],drawable[ic_launcher_foreground(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U),play(U),settings(U),high_score(U),score(U),level(U),moves(U),best_score(U),retry(U),menu(U),you_win(U),game_over(U),sound_effects(U),music(U),back(U),loading(U),next_ball(U)],style[Theme_SoccerBallGoalPop(U)];d^0^c,e^0^c,20^1;;;"/>
+    </map>
+
+</incidents>

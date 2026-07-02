@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ball_blue">#FF1E88E5</color>
+    <color name="ball_green">#FF43A047</color>
+    <color name="ball_orange">#FFFB8C00</color>
+    <color name="ball_purple">#FF8E24AA</color>
+    <color name="ball_red">#FFE53935</color>
+    <color name="ball_yellow">#FFFDD835</color>
+    <color name="field_dark_green">#FF1B5E20</color>
+    <color name="field_green">#FF2E7D32</color>
+    <color name="field_light_green">#FF43A047</color>
+    <color name="goal_white">#FFFFFFFF</color>
+    <color name="ui_dark">#FF1A237E</color>
+    <color name="ui_gold">#FFFFC107</color>
+    <string name="app_name">Soccer Ball Goal Pop</string>
+    <string name="back">Back</string>
+    <string name="best_score">Best Score</string>
+    <string name="game_over">Game Over</string>
+    <string name="high_score">High Score</string>
+    <string name="level">Level</string>
+    <string name="loading">Loading…</string>
+    <string name="menu">Menu</string>
+    <string name="moves">Moves</string>
+    <string name="music">Music</string>
+    <string name="next_ball">Next</string>
+    <string name="play">Play</string>
+    <string name="retry">Retry</string>
+    <string name="score">Score</string>
+    <string name="settings">Settings</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="you_win">You Win!</string>
+    <style name="Theme.SoccerBallGoalPop" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/field_dark_green</item>
+        <item name="android:navigationBarColor">@color/field_dark_green</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Soccer Ball Goal Pop</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="high_score">High Score</string>
+    <string name="score">Score</string>
+    <string name="level">Level</string>
+    <string name="moves">Moves</string>
+    <string name="mistakes">Mistakes</string>
+    <string name="best_score">Best Score</string>
+    <string name="retry">Retry</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="menu">Menu</string>
+    <string name="you_win">You Win!</string>
+    <string name="game_over">Game Over</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="music">Music</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="next_ball">Next</string>
+    <string name="coins">Coins</string>
+    <string name="shop">Shop</string>
+    <string name="lucky_wheel">Lucky Wheel</string>
+    <string name="tap">Tap</string>
+    <string name="spinning">Spinning…</string>
+    <string name="spin_again">Spin Again</string>
+    <string name="watch_and_claim">Watch &amp; Claim</string>
+    <string name="watch_video_coins">Watch Video — +%1$d Coins</string>
+    <string name="shop_free_coins_title">Free Coins</string>
+    <string name="shop_free_coins_desc">Watch a short video and get 1000 coins. No limit!</string>
+    <string name="coins_added">+%1$d coins added!</string>
+    <string name="ad_not_ready">Ad is loading, try again in a moment.</string>
+    <string name="reward_claimed">Reward claimed!</string>
+    <string name="you_won_coins">You won %1$d coins!</string>
+    <string name="win_amount">Win: %1$d coins</string>
+    <string name="boost_reward">Boost Reward</string>
+    <string name="preparing_boost">Get ready to boost…</string>
+    <string name="claim">Claim!</string>
+    <string name="boost_result">%1$s — %2$d coins</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms Of Use</string>
+    <string name="privacy_policy_text">Soccer Ball Goal Pop ("the App") is provided by the developer of com.soccerball.goalpop for entertainment purposes.\n\nData we collect\n• Game progress, scores, coins, and settings are stored locally on your device.\n• We use Yandex AppMetrica to collect anonymous usage analytics (such as app opens, gameplay events, and settings interactions) to improve the App.\n• Start.io may show rewarded video ads. Ad partners may collect device identifiers, coarse location, and ad interaction data according to their own policies.\n\nPermissions\n• Internet and network state are used for analytics and ads.\n• Coarse location may be used by advertising partners to deliver relevant ads.\n\nChildren\nThe App is intended for a general audience and does not knowingly collect personal information from children.\n\nChanges\nWe may update this Privacy Policy from time to time. Continued use of the App means you accept the updated policy.\n\nContact\nFor privacy questions, contact the developer through the Google Play store listing.</string>
+    <string name="terms_of_use_text">By downloading or using Soccer Ball Goal Pop, you agree to these Terms Of Use.\n\nLicense\nWe grant you a personal, non-exclusive, non-transferable license to use the App for personal entertainment.\n\nGameplay and virtual items\nCoins, rewards, and other in-game items have no real-world monetary value and cannot be exchanged for cash.\n\nAdvertising\nThe App may display rewarded video ads through Start.io. Watching ads is optional unless required to claim certain in-game rewards.\n\nAcceptable use\nYou agree not to reverse engineer, cheat, or misuse the App in any way that harms other users or the service.\n\nDisclaimer\nThe App is provided "as is" without warranties of any kind. We are not liable for any damages arising from use of the App.\n\nChanges\nWe may modify these terms at any time. Continued use after changes constitutes acceptance.\n\nContact\nFor questions about these terms, contact the developer through the Google Play store listing.</string>
+</resources>

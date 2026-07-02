@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.7.3 is available: 9.2.1">
+        <fix-replace
+            description="Change to 9.2.1"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="9.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="18"
+            endLine="2"
+            endColumn="14"
+            endOffset="25"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.android than 2.0.21 is available: 2.1.0">
+        <fix-replace
+            description="Change to 2.1.0"
+            family="Update versions"
+            oldString="2.0.21"
+            replacement="2.1.0"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="36"
+            endLine="3"
+            endColumn="18"
+            endOffset="44"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.19.0">
+        <fix-replace
+            description="Change to 1.19.0"
+            family="Update versions"
+            oldString="1.15.0"
+            replacement="1.19.0"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="56"
+            endLine="4"
+            endColumn="19"
+            endOffset="64"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.7 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.7"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="5"
+            column="13"
+            startOffset="78"
+            endLine="5"
+            endColumn="20"
+            endOffset="85"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.7 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.7"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="5"
+            column="13"
+            startOffset="78"
+            endLine="5"
+            endColumn="20"
+            endOffset="85"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.9.3"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="6"
+            column="19"
+            startOffset="105"
+            endLine="6"
+            endColumn="26"
+            endOffset="112"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.12.01 is available: 2026.06.00">
+        <fix-replace
+            description="Change to 2026.06.00"
+            family="Update versions"
+            oldString="2024.12.01"
+            replacement="2026.06.00"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="7"
+            column="14"
+            startOffset="127"
+            endLine="7"
+            endColumn="26"
+            endOffset="139"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.8.5 is available: 2.9.8">
+        <fix-replace
+            description="Change to 2.9.8"
+            family="Update versions"
+            oldString="2.8.5"
+            replacement="2.9.8"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="8"
+            column="14"
+            startOffset="154"
+            endLine="8"
+            endColumn="21"
+            endOffset="161"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.1"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Projects/Soccer Ball Goal Pop/gradle/libs.versions.toml"
+            line="9"
+            column="13"
+            startOffset="175"
+            endLine="9"
+            endColumn="20"
+            endOffset="182"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color ball_blue
+color ball_green
+color ball_orange
+color ball_purple
+color ball_red
+color ball_yellow
+color field_dark_green
+color field_green
+color field_light_green
+color goal_white
+color ui_dark
+color ui_gold
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string back
+string best_score
+string game_over
+string high_score
+string level
+string loading
+string menu
+string moves
+string music
+string next_ball
+string play
+string retry
+string score
+string settings
+string sound_effects
+string you_win
+style Theme.SoccerBallGoalPop
