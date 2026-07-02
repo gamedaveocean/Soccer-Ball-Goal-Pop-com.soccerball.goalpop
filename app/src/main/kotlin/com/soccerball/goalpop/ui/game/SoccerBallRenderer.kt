@@ -17,25 +17,16 @@ import androidx.compose.ui.unit.IntSize
 import com.soccerball.goalpop.R
 
 object BallSprites {
-    val drawableIds = intArrayOf(
-        R.drawable.ball_classic,
-        R.drawable.ball_blue,
-        R.drawable.ball_red,
-        R.drawable.ball_yellow,
-        R.drawable.ball_green,
-        R.drawable.ball_orange,
-    )
-
-    const val uniqueColorCount: Int = 6
+    const val columns = 2
+    const val rows = 2
+    const val uniqueColorCount: Int = 4
 }
 
 @Composable
-fun rememberBallSprites(): List<ImageBitmap> {
+fun rememberBallSprites(): ImageBitmap {
     val context = LocalContext.current
     return remember {
-        BallSprites.drawableIds.map { id ->
-            ImageBitmap.imageResource(context.resources, id)
-        }
+        ImageBitmap.imageResource(context.resources, R.drawable.ui_balls_sheet)
     }
 }
 
@@ -43,19 +34,25 @@ fun DrawScope.drawSoccerBall(
     center: Offset,
     radius: Float,
     colorIndex: Int,
-    sprites: List<ImageBitmap>,
+    sprites: ImageBitmap,
 ) {
-    if (radius <= 0f || sprites.isEmpty()) return
-    val image = sprites[colorIndex % sprites.size]
+    if (radius <= 0f) return
     val diameter = (radius * 2f).coerceAtLeast(1f)
     val topLeft = Offset(center.x - radius, center.y - radius)
+    val cell = colorIndex % BallSprites.uniqueColorCount
+    val cellW = sprites.width / BallSprites.columns
+    val cellH = sprites.height / BallSprites.rows
+    val col = cell % BallSprites.columns
+    val row = cell / BallSprites.columns
     val clip = Path().apply {
         addOval(Rect(topLeft, Size(diameter, diameter)))
     }
 
     clipPath(clip) {
         drawImage(
-            image = image,
+            image = sprites,
+            srcOffset = IntOffset(col * cellW, row * cellH),
+            srcSize = IntSize(cellW, cellH),
             dstOffset = IntOffset(topLeft.x.toInt(), topLeft.y.toInt()),
             dstSize = IntSize(diameter.toInt().coerceAtLeast(1), diameter.toInt().coerceAtLeast(1)),
             filterQuality = FilterQuality.High,

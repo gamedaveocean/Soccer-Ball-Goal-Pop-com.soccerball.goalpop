@@ -44,4 +44,25 @@
     <string name="terms_of_use">Terms Of Use</string>
     <string name="privacy_policy_text">Soccer Ball Goal Pop ("the App") is provided by the developer of com.soccerball.goalpop for entertainment purposes.\n\nData we collect\n• Game progress, scores, coins, and settings are stored locally on your device.\n• We use Yandex AppMetrica to collect anonymous usage analytics (such as app opens, gameplay events, and settings interactions) to improve the App.\n• Start.io may show rewarded video ads. Ad partners may collect device identifiers, coarse location, and ad interaction data according to their own policies.\n\nPermissions\n• Internet and network state are used for analytics and ads.\n• Coarse location may be used by advertising partners to deliver relevant ads.\n\nChildren\nThe App is intended for a general audience and does not knowingly collect personal information from children.\n\nChanges\nWe may update this Privacy Policy from time to time. Continued use of the App means you accept the updated policy.\n\nContact\nFor privacy questions, contact the developer through the Google Play store listing.</string>
     <string name="terms_of_use_text">By downloading or using Soccer Ball Goal Pop, you agree to these Terms Of Use.\n\nLicense\nWe grant you a personal, non-exclusive, non-transferable license to use the App for personal entertainment.\n\nGameplay and virtual items\nCoins, rewards, and other in-game items have no real-world monetary value and cannot be exchanged for cash.\n\nAdvertising\nThe App may display rewarded video ads through Start.io. Watching ads is optional unless required to claim certain in-game rewards.\n\nAcceptable use\nYou agree not to reverse engineer, cheat, or misuse the App in any way that harms other users or the service.\n\nDisclaimer\nThe App is provided "as is" without warranties of any kind. We are not liable for any damages arising from use of the App.\n\nChanges\nWe may modify these terms at any time. Continued use after changes constitutes acceptance.\n\nContact\nFor questions about these terms, contact the developer through the Google Play store listing.</string>
+    <string name="start_game">Start Game</string>
+    <string name="loading_your_luck">LOADING YOUR LUCK…</string>
+    <string name="daily_bonus_title">DAILY BONUS!</string>
+    <string name="daily_bonus_subtitle">We give you daily bonus!</string>
+    <string name="level_complete">LEVEL COMPLETE</string>
+    <string name="your_score">YOUR SCORE</string>
+    <string name="next">NEXT</string>
+    <string name="home">HOME</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="please_wait">PLEASE WAIT</string>
+    <string name="please_wait_desc">The application is loading. Please wait a moment.</string>
+    <string name="wheel_of_luck">WHEEL OF LUCK</string>
+    <string name="spin">Spin</string>
+    <string name="free_spin">Free Spin</string>
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Sound</string>
+    <string name="store">Store</string>
+    <string name="wheel_fail">FAIL</string>
+    <string name="wheel_mega_win">MEGA WIN!</string>
+    <string name="wheel_free_spins">FREE SPINS</string>
 </resources>

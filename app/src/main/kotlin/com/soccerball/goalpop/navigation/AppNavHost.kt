@@ -11,7 +11,7 @@ import androidx.navigation.navArgument
 import com.soccerball.goalpop.data.GamePreferences
 import com.soccerball.goalpop.game.GameViewModel
 import com.soccerball.goalpop.ui.game.GameScreen
-import com.soccerball.goalpop.ui.gameover.GameOverScreen
+import com.soccerball.goalpop.ui.leaderboard.LeaderboardScreen
 import com.soccerball.goalpop.ui.menu.MainMenuScreen
 import com.soccerball.goalpop.ui.settings.LegalDocument
 import com.soccerball.goalpop.ui.settings.LegalDocumentScreen
@@ -24,15 +24,13 @@ object Routes {
     const val SPLASH = "splash"
     const val MENU = "menu"
     const val GAME = "game/{level}"
-    const val GAME_OVER = "game_over/{score}/{won}/{level}"
     const val SETTINGS = "settings"
     const val LEGAL = "legal/{document}"
     const val SHOP = "shop"
     const val LUCKY_WHEEL = "lucky_wheel"
+    const val LEADERBOARD = "leaderboard"
 
     fun game(level: Int) = "game/$level"
-    fun gameOver(score: Int, won: Boolean, level: Int) =
-        "game_over/$score/$won/$level"
 
     fun legal(document: LegalDocument) = when (document) {
         LegalDocument.PrivacyPolicy -> "legal/privacy"
@@ -52,6 +50,12 @@ fun AppNavHost(preferences: GamePreferences) {
                         popUpTo(Routes.SPLASH) { inclusive = true }
                     }
                 },
+                onPrivacyPolicy = {
+                    navController.navigate(Routes.legal(LegalDocument.PrivacyPolicy))
+                },
+                onTermsOfUse = {
+                    navController.navigate(Routes.legal(LegalDocument.TermsOfUse))
+                },
             )
         }
 
@@ -70,6 +74,15 @@ fun AppNavHost(preferences: GamePreferences) {
                 onSettings = {
                     navController.navigate(Routes.SETTINGS)
                 },
+                onLeaderboard = {
+                    navController.navigate(Routes.LEADERBOARD)
+                },
+                onPrivacyPolicy = {
+                    navController.navigate(Routes.legal(LegalDocument.PrivacyPolicy))
+                },
+                onTermsOfUse = {
+                    navController.navigate(Routes.legal(LegalDocument.TermsOfUse))
+                },
             )
         }
 
@@ -82,6 +95,13 @@ fun AppNavHost(preferences: GamePreferences) {
 
         composable(Routes.LUCKY_WHEEL) {
             LuckWheelScreen(
+                preferences = preferences,
+                onBack = { navController.popBackStack() },
+            )
+        }
+
+        composable(Routes.LEADERBOARD) {
+            LeaderboardScreen(
                 preferences = preferences,
                 onBack = { navController.popBackStack() },
             )
@@ -100,50 +120,29 @@ fun AppNavHost(preferences: GamePreferences) {
             GameScreen(
                 viewModel = gameViewModel,
                 level = level,
-                onWin = { score ->
-                    navController.navigate(Routes.gameOver(score, true, level)) {
-                        popUpTo(Routes.MENU)
+                onNextLevel = { nextLevel ->
+                    navController.navigate(Routes.game(nextLevel)) {
+                        popUpTo(Routes.game(level)) { inclusive = true }
                     }
                 },
-                onLose = { score ->
-                    navController.navigate(Routes.gameOver(score, false, level)) {
-                        popUpTo(Routes.MENU)
-                    }
-                },
-                onMainMenu = {
-                    navController.navigate(Routes.MENU) {
-                        popUpTo(Routes.MENU) { inclusive = true }
-                    }
-                },
-            )
-        }
-
-        composable(
-            route = Routes.GAME_OVER,
-            arguments = listOf(
-                navArgument("score") { type = NavType.IntType },
-                navArgument("won") { type = NavType.BoolType },
-                navArgument("level") { type = NavType.IntType },
-            ),
-        ) { backStackEntry ->
-            val score = backStackEntry.arguments?.getInt("score") ?: 0
-            val won = backStackEntry.arguments?.getBoolean("won") ?: false
-            val level = backStackEntry.arguments?.getInt("level") ?: 1
-            GameOverScreen(
-                preferences = preferences,
-                score = score,
-                won = won,
-                level = level,
-                onRetry = {
-                    val retryLevel = if (won) level + 1 else level
+                onRetry = { retryLevel ->
                     navController.navigate(Routes.game(retryLevel)) {
-                        popUpTo(Routes.MENU)
+                        popUpTo(Routes.game(level)) { inclusive = true }
                     }
                 },
-                onMenu = {
+                onHome = {
                     navController.navigate(Routes.MENU) {
                         popUpTo(Routes.MENU) { inclusive = true }
                     }
+                },
+                onSettings = {
+                    navController.navigate(Routes.SETTINGS)
+                },
+                onLuckyWheel = {
+                    navController.navigate(Routes.LUCKY_WHEEL)
+                },
+                onLeaderboard = {
+                    navController.navigate(Routes.LEADERBOARD)
                 },
             )
         }
@@ -157,6 +156,9 @@ fun AppNavHost(preferences: GamePreferences) {
                 },
                 onTermsOfUse = {
                     navController.navigate(Routes.legal(LegalDocument.TermsOfUse))
+                },
+                onStore = {
+                    navController.navigate(Routes.SHOP)
                 },
             )
         }

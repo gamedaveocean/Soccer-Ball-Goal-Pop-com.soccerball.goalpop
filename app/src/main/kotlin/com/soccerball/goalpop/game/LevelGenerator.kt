@@ -5,7 +5,7 @@ import kotlin.random.Random
 
 object LevelGenerator {
     private const val MAX_LEVELS = 30
-    private const val MAX_BALL_COLORS = 6
+    private const val MAX_BALL_COLORS = 4
 
     fun levelConfig(level: Int): LevelConfig {
         val clamped = level.coerceIn(1, MAX_LEVELS)
