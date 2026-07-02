@@ -6,6 +6,8 @@
 /build
 /app/build
 /_design_extract
+/docs/screenshots/
+/releases/
 /captures
 .externalNativeBuild
 .cxx
